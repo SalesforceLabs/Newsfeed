@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Newsfeed</fullName>
+    <apiAccessLevel>Unrestricted</apiAccessLevel>
+    <namespacePrefix>newsfeedapp</namespacePrefix>
+    <types>
+        <members>FormulaParser</members>
+        <members>FormulaParserTest</members>
+        <members>PostListController</members>
+        <members>PostListControllerTest</members>
+        <members>TagPickList</members>
+        <members>TagPickListTest</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Post__c.Clicks__c</members>
+        <members>Post__c.Description__c</members>
+        <members>Post__c.Expiration__c</members>
+        <members>Post__c.Tags__c</members>
+        <members>Post__c.URL__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Post__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Tags</members>
+        <name>GlobalValueSet</name>
+    </types>
+    <types>
+        <members>Post__c-Post Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Admin</members>
+        <name>Profile</name>
+    </types>
+    <version>46.0</version>
+</Package>
